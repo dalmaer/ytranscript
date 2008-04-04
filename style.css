@@ -1,0 +1,44 @@
+body {
+  margin: auto;
+  font-family: Arial, sans-serif;
+  font-size: 120%;
+  padding: 12px;
+}
+
+#content {
+  margin: 0px auto;
+  padding: 15px;
+  width: 500px;
+}
+
+.ytranscript ul {
+  width: 480px;
+  border: 1px solid #ddd;
+  margin: 0;
+  padding: 0;
+}
+
+.ytranscript ul li {
+  list-style-position: outside;
+  list-style-type: none;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.ytranscript ul li:hover, .ytranscript ul li.odd:hover {
+  background-color: #ddd;
+}
+
+.ytranscript .timing {
+  color: #999;
+  padding-left: 8px;
+  font-size: small;
+}
+
+.ytranscript ul li.odd {
+  background-color: #eee;
+}
+
+.ytplayer {
+  padding-left: 20px;
+}
